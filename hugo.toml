@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jeremylocatelli-personalsite.fly.dev'
 languageCode = 'en-us'
 title = 'Jeremy Locatelli'
 theme = ['ananke', 'hugo-embed-pdf-shortcode']
