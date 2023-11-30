@@ -9,9 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          token: ${{ secrets.PAT_TOKEN }}
       - uses: superfly/flyctl-actions/setup-flyctl@master
-      with:
-        submodules: 'true'
       - run: flyctl deploy 
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
