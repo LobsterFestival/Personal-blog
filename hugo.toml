@@ -1,7 +1,7 @@
 baseURL = 'https://jeremylocatelli-personalsite.fly.dev'
 languageCode = 'en-us'
 title = 'Jeremy Locatelli'
-theme = ['ananke', 'hugo-embed-pdf-shortcode']
+theme = ['ananke']
 enableInlineShortcodes = true
 
 defaultContentLanguage = "en"
